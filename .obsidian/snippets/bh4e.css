@@ -2,17 +2,17 @@
 @font-face {
   font-family: AndleyFont;
   unicode-range: U+0370-03FF, U+1F00-1FFF; /* Greek UNICODE */
-  src: local("SBL BibLit");
+  src: local("EB Garamond");
 }
 @font-face {
   font-family: AndleyFont;
   unicode-range: U+0590-05FF, U+FB10-FB4F; /* Hebrew UNICODE */
-  src: local("SBL BibLit");
+  src: local("Noto Serif Hebrew");
 }
 @font-face {
   font-family: AndleyFont;
   unicode-range: U+00-024F; /* English UNICODE */
-  src: local("Noto Sans");
+  src: local("Ubuntu Condensed");
 }
 @font-face {
   font-family: AndleyFont;
