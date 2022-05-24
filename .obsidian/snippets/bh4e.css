@@ -142,13 +142,13 @@
     flex-direction: column-reverse ;
     align-items: center;
     font-size: 19px ; /* 12pt 字體大小*/
-    line-height: 26px ;
-    padding-bottom: 19px ;
+    line-height: 25px ;
+    padding-bottom: 10px ;
     font-family: AndleyFont;
   }
   rt {
-    font-size: 15px ; /* 10pt 字體大小*/
-    line-height: 19px ;
+    font-size: 13px ; /* 10pt 字體大小*/
+    line-height: 15px ;
     font-family: InterlinearFont;
   }
 
