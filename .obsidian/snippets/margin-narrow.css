@@ -1,0 +1,33 @@
+/* ============= 列印 PDF 設定 ============= */
+@page {
+  size: A4 portrait;
+  margin-top: 1cm;
+  margin-left: 0cm;
+  margin-right:0cm;
+  margin-bottom: 1cm;
+}
+
+.markdown-source-view, .markdown-preview-view {
+  max-width: 900px;
+  margin: auto;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: black !important;
+  }
+
+  ruby strong {
+    color: red !important;
+  }
+
+  ruby em {
+    color: blue !important;
+  }
+
+  em, strong {
+    color:darkorange !important;
+  }
+
+  html, body {
+    color: black  !important;
+  }
