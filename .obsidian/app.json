@@ -17,5 +17,6 @@
   "legacyEditor": true,
   "livePreview": true,
   "communityPluginSortOrder": "download",
-  "fileSortOrder": "alphabetical"
+  "fileSortOrder": "alphabetical",
+  "rightToLeft": true
 }

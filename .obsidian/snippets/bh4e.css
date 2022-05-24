@@ -7,12 +7,12 @@
 @font-face {
   font-family: AndleyFont;
   unicode-range: U+0590-05FF, U+FB10-FB4F; /* Hebrew UNICODE */
-  src: local("Noto Serif Hebrew");
+  src: local("Ezra SIL");
 }
 @font-face {
   font-family: AndleyFont;
   unicode-range: U+00-024F; /* English UNICODE */
-  src: local("Ubuntu Condensed");
+  src: local("Noto Sans");
 }
 @font-face {
   font-family: AndleyFont;
@@ -23,22 +23,22 @@
 @font-face {
   font-family: InterlinearFont;
   unicode-range: U+0370-03FF, U+1F00-1FFF; /* Greek UNICODE */
-  src: local("SBL BibLit");
+  src: local("EB Garamond");
 }
 @font-face {
   font-family: InterlinearFont;
   unicode-range: U+0590-05FF, U+FB10-FB4F; /* Hebrew UNICODE */
-  src: local("SBL BibLit");
+  src: local("Ezra SIL");
 }
 @font-face {
   font-family: InterlinearFont;
   unicode-range: U+00-024F; /* English UNICODE */
-  src: local("Arial Narrow");
+  src: local("Ubuntu Condensed");
 }
 @font-face {
   font-family: InterlinearFont;
   unicode-range: U+4E00-9FFF; /* 中文 UNICODE */
-  src: local("新細明體");
+  src: local("Noto Sans CJK TC");
 }
 
 
@@ -141,14 +141,14 @@
     display: inline-flex;
     flex-direction: column-reverse ;
     align-items: center;
-    font-size: 20px ; /* 12pt 字體大小*/
-    line-height: 20px ;
-    padding-bottom: 16px ;
+    font-size: 19px ; /* 12pt 字體大小*/
+    line-height: 26px ;
+    padding-bottom: 19px ;
     font-family: AndleyFont;
   }
   rt {
-    font-size: 13px ; /* 10pt 字體大小*/
-    line-height: 13px ;
+    font-size: 15px ; /* 10pt 字體大小*/
+    line-height: 19px ;
     font-family: InterlinearFont;
   }
 
@@ -162,7 +162,7 @@ strong, .cm-strong {
   }
 em, .cm-em {
     color: var(--color-em);
-    font-weight: bolder;
+    font-weight: bold;
   }
 
 html, body, p, li {
