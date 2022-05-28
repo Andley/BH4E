@@ -1,11 +1,12 @@
 {
-  "baseFontSize": 19,
+  "baseFontSize": 16,
   "enabledCssSnippets": [
     "BG4E",
     "font",
     "default",
-    "bg4e"
+    "bg4e",
+    "bh4e"
   ],
   "theme": "obsidian",
-  "cssTheme": "Minimal"
+  "cssTheme": ""
 }

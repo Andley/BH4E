@@ -4,26 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "e175a5c37b69d3d3",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "test.md",
-            "mode": "preview",
-            "backlinks": false
-          },
-          "pinned": true
-        }
-      },
-      {
         "id": "c14de14cc7a76a77",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "qqq.md",
+            "file": "Untitled.md",
             "mode": "preview",
             "backlinks": false
           }
@@ -91,7 +77,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -113,17 +99,17 @@
     "width": 183.0555419921875,
     "collapsed": true
   },
-  "active": "e175a5c37b69d3d3",
+  "active": "c14de14cc7a76a77",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Untitled 1.md",
     "test.md",
-    "qqq.md",
     "ts.md",
+    "qqq.md",
     "Syntax/§43.md",
     "Syntax/§0 BG4E-Syntax.md",
     "NewPhp/Php.3.1–11.md",
     "NewPhp/Php.2.19–30.md",
-    "BBG4E/HW9-Key.md",
-    "Syntax/§56.md",
-    "BBG4E/HW9.md"
+    "BBG4E/HW9-Key.md"
   ]
 }
