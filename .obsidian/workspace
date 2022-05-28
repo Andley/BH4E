@@ -6,11 +6,25 @@
       {
         "id": "e175a5c37b69d3d3",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ts.md",
-            "mode": "source",
+            "file": "test.md",
+            "mode": "preview",
+            "backlinks": false
+          },
+          "pinned": true
+        }
+      },
+      {
+        "id": "c14de14cc7a76a77",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "qqq.md",
+            "mode": "preview",
             "backlinks": false
           }
         }
@@ -77,7 +91,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ts.md"
+                "file": "test.md"
               }
             }
           },
@@ -101,6 +115,8 @@
   },
   "active": "e175a5c37b69d3d3",
   "lastOpenFiles": [
+    "test.md",
+    "qqq.md",
     "ts.md",
     "Syntax/§43.md",
     "Syntax/§0 BG4E-Syntax.md",
@@ -108,8 +124,6 @@
     "NewPhp/Php.2.19–30.md",
     "BBG4E/HW9-Key.md",
     "Syntax/§56.md",
-    "BBG4E/HW9.md",
-    "tmp.md",
-    "Syntax/§51.md"
+    "BBG4E/HW9.md"
   ]
 }

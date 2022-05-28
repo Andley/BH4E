@@ -18,5 +18,5 @@
   "livePreview": true,
   "communityPluginSortOrder": "download",
   "fileSortOrder": "alphabetical",
-  "rightToLeft": true
+  "rightToLeft": false
 }

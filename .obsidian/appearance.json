@@ -4,8 +4,8 @@
     "BG4E",
     "font",
     "default",
-    "bg4e",
-    "bh4e"
+    "bg4e"
   ],
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "cssTheme": "Minimal"
 }
