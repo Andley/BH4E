@@ -10,8 +10,22 @@
           "type": "markdown",
           "state": {
             "file": "Untitled.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "cc481478e4ae42db",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Untitled 1.md",
             "mode": "preview",
-            "backlinks": false
+            "backlinks": false,
+            "source": true
           }
         }
       }
@@ -101,8 +115,8 @@
   },
   "active": "c14de14cc7a76a77",
   "lastOpenFiles": [
-    "Untitled.md",
     "Untitled 1.md",
+    "Untitled.md",
     "test.md",
     "ts.md",
     "qqq.md",
