@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Untitled.md",
+            "file": "Untitled 1.md",
             "mode": "source",
             "backlinks": false,
             "source": true
@@ -91,7 +91,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Untitled 1.md"
               }
             }
           },
@@ -115,8 +115,8 @@
   },
   "active": "c14de14cc7a76a77",
   "lastOpenFiles": [
-    "Untitled 1.md",
     "Untitled.md",
+    "Untitled 1.md",
     "test.md",
     "ts.md",
     "qqq.md",

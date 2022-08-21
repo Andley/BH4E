@@ -21,6 +21,7 @@
   "basePath": "",
   "differentIntervalCommitAndPush": false,
   "changedFilesInStatusBar": false,
+  "username": "",
   "currentBranch": "main",
   "remote": "origin"
 }
