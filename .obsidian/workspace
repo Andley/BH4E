@@ -4,19 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "c14de14cc7a76a77",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Untitled 1.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": true
-          }
-        }
-      },
-      {
         "id": "cc481478e4ae42db",
         "type": "leaf",
         "state": {
@@ -113,7 +100,7 @@
     "width": 183.0555419921875,
     "collapsed": true
   },
-  "active": "c14de14cc7a76a77",
+  "active": "cc481478e4ae42db",
   "lastOpenFiles": [
     "Untitled.md",
     "Untitled 1.md",
