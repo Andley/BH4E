@@ -4,17 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "cc481478e4ae42db",
+        "id": "1a81d9f000627cca",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Data Source.md",
-            "mode": "source",
+            "file": "Untitled 2.md",
+            "mode": "preview",
             "backlinks": false,
             "source": true
           }
-        }
+        },
+        "group": "98d95b26b4414933"
+      },
+      {
+        "id": "e4c58faa39706a81",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Untitled 2.md",
+            "mode": "preview",
+            "backlinks": false,
+            "source": true
+          }
+        },
+        "group": "98d95b26b4414933"
       }
     ],
     "direction": "vertical"
@@ -62,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 183
+    "width": 267
   },
   "right": {
     "id": "1464b72f66019d33",
@@ -78,18 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Source.md"
-              }
-            }
-          },
-          {
-            "id": "5fe5ad8b5730e9c5",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
+                "file": "Untitled 2.md"
               }
             }
           }
@@ -100,17 +104,17 @@
     "width": 183.0555419921875,
     "collapsed": true
   },
-  "active": "cc481478e4ae42db",
+  "active": "1a81d9f000627cca",
   "lastOpenFiles": [
     "Untitled 1.md",
-    "qqq.md",
     "Untitled.md",
+    "qqq.md",
     "test.md",
+    "Untitled 2.md",
     "ts.md",
+    "Data Source.md",
     "Syntax/§43.md",
     "Syntax/§0 BG4E-Syntax.md",
-    "NewPhp/Php.3.1–11.md",
-    "NewPhp/Php.2.19–30.md",
-    "BBG4E/HW9-Key.md"
+    "NewPhp/Php.3.1–11.md"
   ]
 }
