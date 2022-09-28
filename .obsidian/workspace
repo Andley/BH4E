@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Untitled 2.md",
-            "mode": "preview",
+            "file": "Untitled 1.md",
+            "mode": "source",
             "backlinks": false,
             "source": true
           }
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Untitled 2.md",
+            "file": "Untitled 1.md",
             "mode": "preview",
             "backlinks": false,
             "source": true
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 2.md"
+                "file": "Untitled 1.md"
               }
             }
           }
@@ -106,11 +106,11 @@
   },
   "active": "1a81d9f000627cca",
   "lastOpenFiles": [
-    "Untitled 1.md",
+    "Untitled 2.md",
     "Untitled.md",
+    "Untitled 1.md",
     "qqq.md",
     "test.md",
-    "Untitled 2.md",
     "ts.md",
     "Data Source.md",
     "Syntax/§43.md",

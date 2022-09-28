@@ -13,7 +13,6 @@
   "showStatusBar": true,
   "updateSubmodules": false,
   "syncMethod": "merge",
-  "gitPath": "",
   "customMessageOnAutoBackup": false,
   "autoBackupAfterFileChange": true,
   "treeStructure": false,
@@ -22,6 +21,9 @@
   "differentIntervalCommitAndPush": false,
   "changedFilesInStatusBar": false,
   "username": "",
+  "showedMobileNotice": true,
+  "refreshSourceControlTimer": 7000,
+  "showBranchStatusBar": true,
   "currentBranch": "main",
   "remote": "origin"
 }
