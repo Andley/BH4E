@@ -96,6 +96,17 @@
                 "file": "Untitled 1.md"
               }
             }
+          },
+          {
+            "id": "4bb528e76dcfbea6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
           }
         ]
       }
