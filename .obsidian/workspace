@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-1.md",
+            "file": "Untitled.md",
             "mode": "source",
             "backlinks": false,
             "source": true
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-1.md",
+            "file": "Untitled.md",
             "mode": "preview",
             "backlinks": false,
             "source": true
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-1.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -117,8 +117,8 @@
   },
   "active": "1a81d9f000627cca",
   "lastOpenFiles": [
-    "Untitled 1.md",
     "0-1.md",
+    "Untitled 1.md",
     "Untitled.md",
     "qqq.md",
     "test.md",
