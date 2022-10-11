@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ts.md",
+            "file": "Williams-Outline.md",
             "mode": "source",
             "backlinks": false,
             "source": true
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ts.md",
+            "file": "Williams-Outline.md",
             "mode": "preview",
             "backlinks": false,
             "source": true
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 175.50000190734863
+    "width": 175.50000190734863,
+    "collapsed": true
   },
   "right": {
     "id": "1464b72f66019d33",
@@ -93,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ts.md"
+                "file": "Williams-Outline.md"
               }
             }
           },
@@ -112,20 +113,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 183.0555419921875,
+    "width": 293.5564880371094,
     "collapsed": true
   },
   "active": "e4c58faa39706a81",
   "lastOpenFiles": [
-    "test.md",
-    "ts.md",
-    "Untitled.md",
+    "§72.md",
+    "Williams-Outline.md",
+    "§133.md",
     "Untitled 1.md",
+    "aascac.md",
+    "ts.md",
+    "test.md",
+    "Untitled.md",
     "0-1.md",
-    "qqq.md",
-    "Data Source.md",
-    "Syntax/§43.md",
-    "Syntax/§0 BG4E-Syntax.md",
-    "NewPhp/Php.3.1–11.md"
+    "qqq.md"
   ]
 }
