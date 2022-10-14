@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Untitled 3.md",
+            "file": "Williams-Outline.md",
             "mode": "source",
             "backlinks": false,
             "source": true
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Untitled 3.md",
+            "file": "Williams-Outline.md",
             "mode": "preview",
             "backlinks": false,
             "source": true
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 175.50000190734863,
-    "collapsed": true
+    "width": 175.50000190734863
   },
   "right": {
     "id": "1464b72f66019d33",
@@ -94,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 3.md"
+                "file": "Williams-Outline.md"
               }
             }
           },
@@ -118,15 +117,15 @@
   },
   "active": "1a81d9f000627cca",
   "lastOpenFiles": [
-    "Untitled 2.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "张亚民.md",
     "Williams-Outline.md",
+    "潘隆正.md",
     "§72.md",
     "§133.md",
-    "Untitled 1.md",
     "aascac.md",
     "ts.md",
-    "test.md",
-    "Untitled.md",
-    "0-1.md"
+    "test.md"
   ]
 }
