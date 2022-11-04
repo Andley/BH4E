@@ -4,9 +4,9 @@
     "BG4E",
     "font",
     "default",
-    "bg4e",
-    "bh4e"
+    "bg4e"
   ],
   "theme": "obsidian",
-  "cssTheme": ""
+  "cssTheme": "Obsidian Nord",
+  "accentColor": ""
 }

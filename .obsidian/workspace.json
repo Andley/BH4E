@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "3969f3923e6cfedb",
+    "type": "split",
+    "children": [
+      {
+        "id": "03e3266369123df3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a81d9f000627cca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Williams-Outline.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            },
+            "group": "98d95b26b4414933"
+          },
+          {
+            "id": "a839f1674e6c5354",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "潘隆正.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "c5ec51c3de83c1c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "qqq.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "a477efb67446a658",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e4c58faa39706a81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Williams-Outline.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            },
+            "group": "98d95b26b4414933"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2b1e149eb78e8515",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb89deb39da52857",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "75b75d906b38f1fb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8b1314860610141a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "47f03e690283089d",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 175.50000190734863
+  },
+  "right": {
+    "id": "1464b72f66019d33",
+    "type": "split",
+    "children": [
+      {
+        "id": "d0f62b3dd05030d0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c60c8158acd8037",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Williams-Outline.md"
+              }
+            }
+          },
+          {
+            "id": "4bb528e76dcfbea6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 293.5564880371094,
+    "collapsed": true
+  },
+  "active": "1a81d9f000627cca",
+  "lastOpenFiles": [
+    "qqq.md",
+    "test.md",
+    "Data Source.md",
+    "潘隆正.md",
+    "Williams-Outline.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "张亚民.md",
+    "§72.md",
+    "§133.md"
+  ]
+}
