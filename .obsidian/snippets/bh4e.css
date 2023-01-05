@@ -136,6 +136,10 @@
   font-family: AndleyFont;
 }
 
+.markdown-rendered thead tr > th {
+
+}
+
 /***************************************/
 /*           Ruby Interlinear          */
 /***************************************/
