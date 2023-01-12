@@ -28,7 +28,7 @@
   --color-em:blue;
   --link-color:rgb(128, 136, 240);
   --link-external-color:rgb(128, 136, 240);
-  --font-text: "Arial Unicode Narrow", "Noto Sans TC";
+  --font-text: "Arial Narrow", "Noto Sans TC";
 }
 
 /* HTML tags in preview and editor */
