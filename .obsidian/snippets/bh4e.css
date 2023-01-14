@@ -1,3 +1,20 @@
+/* ============= 設定字型 ================== */
+  @font-face {
+	font-family: InterlinearFont;
+	unicode-range: U+0370-03FF, U+1F00-1FFF; /* Greek UNICODE */
+	src: local("Gentium Book Plus");
+  }
+  @font-face {
+	font-family: InterlinearFont;
+	unicode-range: U+0590-05FF, U+FB10-FB4F; /* Hebrew UNICODE */
+	src: local("Noto Serif Hebrew");
+  }
+  @font-face {
+	font-family: InterlinearFont;
+	unicode-range: U+00-024F; /* English UNICODE */
+	src: local("Arial Narrow");
+  }
+
 /* Obsidian 介面 */
 .theme-dark {
   --text-tag: #4f8dc2;
@@ -12,7 +29,7 @@
   --color-strong: greenyellow;
   --color-em:gold;
   --text-accent:yellow;
-  --font-text: "David Libre", "Noto Sans TC";
+  --font-text: "Noto Serif Hebrew", "Noto Sans TC";
   --control-character-color: white;
 }
 .theme-light {
@@ -28,7 +45,7 @@
   --color-em:blue;
   --link-color:rgb(128, 136, 240);
   --link-external-color:rgb(128, 136, 240);
-  --font-text: "David Libre", "Noto Sans TC";
+  --font-text: "Noto Serif Hebrew", "Noto Sans TC";
 }
 
 /* HTML tags in preview and editor */
@@ -88,10 +105,12 @@ ruby {
   font-size: 18px ; /* 12pt 字體大小*/
   line-height: 15px ;
   padding-bottom: 10px ;
+  font-family: InterlinearFont;
 }
 rt {
   font-size: 13px ; /* 10pt 字體大小*/
   line-height: 13px ;
+  font-family: InterlinearFont;
 }
 
 ul ruby {
