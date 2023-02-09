@@ -9,5 +9,6 @@
   ],
   "theme": "obsidian",
   "cssTheme": "",
-  "accentColor": ""
+  "accentColor": "",
+  "showViewHeader": false
 }

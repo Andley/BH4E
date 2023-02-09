@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
-                "mode": "source",
+                "file": "Ruth.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 1.md"
+                "file": "Ruth.md"
               }
             }
           },
@@ -118,6 +118,7 @@
   },
   "active": "fb2213f6db9268ce",
   "lastOpenFiles": [
+    "Untitled 1.md",
     "Untitled.md",
     "qqq.md",
     "Data Source.md",
@@ -126,7 +127,6 @@
     "Williams-Outline.md",
     "Ruth.md",
     "aascac.md",
-    "张亚民.md",
-    "0-1.md"
+    "张亚民.md"
   ]
 }
