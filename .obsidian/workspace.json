@@ -4,11 +4,109 @@
     "type": "split",
     "children": [
       {
-        "id": "5d4cd90319ca6481",
+        "id": "42b0af198319c81f",
         "type": "tabs",
         "children": [
           {
-            "id": "fb2213f6db9268ce",
+            "id": "3b05d74e5a52097e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "aascac.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "dd8c39be8652ed1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "aascac.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e9cf2cccb3e63c66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Source.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "acc034e2a79164d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ruth.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b127cf00842830d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a19f27c46407989e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 1.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f2e5e4514d071407",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Williams-Outline.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 6
+      },
+      {
+        "id": "1e7ef2da9e1b8443",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51f7b1e1e5045d3d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 175.50000190734863
+    "width": 175.50000190734863,
+    "collapsed": true
   },
   "right": {
     "id": "1464b72f66019d33",
@@ -124,17 +223,17 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "fb2213f6db9268ce",
+  "active": "51f7b1e1e5045d3d",
   "lastOpenFiles": [
-    "Untitled 1.md",
-    "Untitled.md",
-    "qqq.md",
-    "Data Source.md",
-    "test.md",
-    "ts.md",
     "Williams-Outline.md",
     "Ruth.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "Data Source.md",
     "aascac.md",
+    "qqq.md",
+    "test.md",
+    "ts.md",
     "张亚民.md"
   ]
 }

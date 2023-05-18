@@ -7,7 +7,7 @@
   @font-face {
 	font-family: InterlinearFont;
 	unicode-range: U+0590-05FF, U+FB10-FB4F; /* Hebrew UNICODE */
-	src: local("Noto Serif Hebrew");
+	src: local("Ezra SIL");
   }
   @font-face {
 	font-family: InterlinearFont;
@@ -103,13 +103,13 @@ ruby {
   flex-direction: column-reverse ;
   align-items: center;
   font-size: 18px ; /* 12pt 字體大小*/
-  line-height: 15px ;
+  line-height: 20px ;
   padding-bottom: 10px ;
   font-family: InterlinearFont;
 }
 rt {
   font-size: 13px ; /* 10pt 字體大小*/
-  line-height: 13px ;
+  line-height: 15px ;
   font-family: InterlinearFont;
 }
 
