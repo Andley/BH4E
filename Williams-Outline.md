@@ -1,5 +1,9 @@
+---
+direction: ltr
+---
 
-# Williams’ Hebrew Syntax (3rd ed.)
+
+# Williams' Hebrew Syntax (3rd ed.)
  
 ### Syntax of Nominals
 

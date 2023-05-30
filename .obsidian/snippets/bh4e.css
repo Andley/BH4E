@@ -12,13 +12,13 @@
   @font-face {
 	font-family: InterlinearFont;
 	unicode-range: U+00-024F; /* English UNICODE */
-	src: local("Arial Narrow");
+	src: local("Gentium Book Plus");
   }
   @font-face {
     font-family: InterlinearFont;
     unicode-range: U+4E00-9FFF; /* Chinese UNICODE */
     src: local("Noto Sans TC");
-    }
+  }
 
 /* Obsidian 介面 */
 .theme-dark {
@@ -34,7 +34,7 @@
   --color-strong: greenyellow;
   --color-em:gold;
   --text-accent:yellow;
-  --font-text: "Arial Narrow","Gentium Book Plus","Ezra SIL", "Noto Sans TC";
+  --font-text: InterlinearFont;
   --control-character-color: white;
 }
 .theme-light {
@@ -50,14 +50,14 @@
   --color-em:blue;
   --link-color:rgb(128, 136, 240);
   --link-external-color:rgb(128, 136, 240);
-  --font-text: "Arial Narrow","Gentium Book Plus","Ezra SIL", "Noto Sans TC";
+  --font-text:InterlinearFont;
 }
 
 /* HTML tags in preview and editor */
 .cm-s-obsidian span.cm-tag {
   color: var(--text-tag);
   font-size: 13px;
-  font-family: "Arial Narrow"
+  font-family: "Arial Narrow";
 }
 
 /* 標題 */
@@ -149,6 +149,6 @@ em, .cm-em {
 
 @media print {
   body {
-  --font-text:  "Arial Narrow", "Gentium Book Plus","Ezra SIL", "Noto Sans TC" !important;
+  --font-text:  InterlinearFont !important;
   }
 }
