@@ -12,7 +12,7 @@
   @font-face {
 	font-family: InterlinearFont;
 	unicode-range: U+00-024F; /* English UNICODE */
-	src: local("Gentium Book Plus");
+	src: local("Arial Narrow");
   }
   @font-face {
     font-family: InterlinearFont;
