@@ -7,7 +7,7 @@
   @font-face {
 	font-family: InterlinearFont;
 	unicode-range: U+0590-05FF, U+FB10-FB4F; /* Hebrew UNICODE */
-	src: local("Ezra SIL");
+	src: local("SBL Hebrew");
   }
   @font-face {
 	font-family: InterlinearFont;
@@ -104,12 +104,12 @@ table {
 
 /*   Ruby Interlinear  */
 ruby {
-  display: inline-flex;
+  display: inline;
   flex-direction: column-reverse ;
   align-items: center;
-  font-size: 18px ; /* 12pt 字體大小*/
-  line-height: 20px ;
-  padding-bottom: 10px ;
+  font-size: 20px ; /* 12pt 字體大小*/
+  line-height: 1em;
+  padding: 1px ;
 }
 rt {
   font-size: 13px ; /* 10pt 字體大小*/
