@@ -4,25 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "8a363041ee52a935",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b487f525ac7477cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "bb2b5a55bd3f0972",
         "type": "tabs",
         "children": [
