@@ -18,7 +18,7 @@
   "livePreview": false,
   "communityPluginSortOrder": "download",
   "fileSortOrder": "alphabetical",
-  "rightToLeft": true,
+  "rightToLeft": false,
   "tabSize": 4,
   "spellcheckLanguages": [
     "en-US"

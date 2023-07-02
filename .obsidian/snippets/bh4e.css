@@ -104,18 +104,19 @@ table {
 
 /*   Ruby Interlinear  */
 ruby {
-  display: inline-flex;
-  flex-direction: column-reverse ;
-  align-items: center;
-  font-size: 16px ; /* 12pt 字體大小*/
-  line-height: 18px;
-  font-family:InterlinearFont;
+  display: inline;
+  text-align: center;
+  align-items: normal;
+	font-family: InterlinearFont;
+  font-size:18px;
+	line-height: 5em;
+
 }
+
 rt {
   font-size: 13px ; /* 10pt 字體大小*/
-  line-height: 13px ;
-  text-align: center;
-
+  line-height: 39px;
+  padding:2px;
 }
 
 ul ruby {
