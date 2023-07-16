@@ -6,7 +6,7 @@
     "Ruth.md": "rtl",
     "test.md": "auto"
   },
-  "defaultDirection": "rtl",
+  "defaultDirection": "ltr",
   "rememberPerFile": true,
   "setNoteTitleDirection": false,
   "setYamlDirection": true,
