@@ -4,7 +4,7 @@
     "32-Jonah/hebrew.md": "rtl",
     "Williams-Outline.md": "ltr",
     "Ruth.md": "rtl",
-    "test.md": "auto"
+    "test.md": "ltr"
   },
   "defaultDirection": "ltr",
   "rememberPerFile": true,

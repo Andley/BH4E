@@ -13,26 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "e2c3ce9dbd7c9990",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "274acdd1bb49baa4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test.md",
+                "file": "Ruth.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -113,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test.md"
+                "file": "Ruth.md"
               }
             }
           },
@@ -146,15 +127,14 @@
   "active": "05e7c0159082a508",
   "lastOpenFiles": [
     "test.md",
-    "aascac.md",
-    "Williams-Outline.md",
     "Ruth.md",
+    "Williams-Outline.md",
+    "aascac.md",
     "潘隆正.md",
     "Data Source.md",
     "0-1.md",
     "Untitled 1.md",
     "qqq.md",
-    "test.md",
     "ts.md",
     "张亚民.md"
   ]

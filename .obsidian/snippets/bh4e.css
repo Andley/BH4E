@@ -1,25 +1,3 @@
-/* ============= 設定字型 ================== */
-  @font-face {
-	font-family: InterlinearFont;
-	unicode-range: U+0370-03FF, U+1F00-1FFF; /* Greek UNICODE */
-	src: local("Gentium Book Plus");
-  }
-  @font-face {
-	font-family: InterlinearFont;
-	unicode-range: U+0590-05FF, U+FB10-FB4F; /* Hebrew UNICODE */
-	src: local("SBL Hebrew");
-  }
-  @font-face {
-	font-family: InterlinearFont;
-	unicode-range: U+00-024F; /* English UNICODE */
-	src: local("Arial Narrow");
-  }
-  @font-face {
-    font-family: InterlinearFont;
-    unicode-range: U+4E00-9FFF; /* Chinese UNICODE */
-    src: local("Noto Sans TC");
-  }
-
 /* Obsidian 介面 */
 .theme-dark {
   --text-tag: #4f8dc2;
@@ -34,7 +12,7 @@
   --color-strong: greenyellow;
   --color-em:gold;
   --text-accent:yellow;
-  --font-text: InterlinearFont;
+  --font-text: Times New Roman;
   --control-character-color: white;
 }
 .theme-light {
@@ -50,7 +28,6 @@
   --color-em:blue;
   --link-color:rgb(128, 136, 240);
   --link-external-color:rgb(128, 136, 240);
-  --font-text:InterlinearFont;
 }
 
 /* HTML tags in preview and editor */
@@ -104,28 +81,16 @@ table {
 
 /*   Ruby Interlinear  */
 ruby {
-  display: inline;
-  text-align: center;
-  align-items: normal;
-	font-family: InterlinearFont;
   font-size:18px;
-	line-height: 5em;
-
+  padding:2px;
+  line-height:5em;
 }
 
 rt {
   font-size: 13px ; /* 10pt 字體大小*/
-  line-height: 39px;
-  padding:2px;
 }
 
-ul ruby {
-  padding-bottom: 5px ;
-}
 
-ul p {
-  margin-bottom: 0px ;
-}
 
 strong, .cm-strong {
     color: var(--color-strong);
