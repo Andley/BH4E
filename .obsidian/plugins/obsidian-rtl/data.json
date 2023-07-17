@@ -3,7 +3,7 @@
     "講道筆記.md": "ltr",
     "32-Jonah/hebrew.md": "rtl",
     "Williams-Outline.md": "ltr",
-    "Ruth.md": "rtl",
+    "Ruth.md": "auto",
     "test.md": "ltr"
   },
   "defaultDirection": "ltr",

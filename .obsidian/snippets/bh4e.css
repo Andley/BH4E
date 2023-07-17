@@ -1,6 +1,30 @@
-/* Obsidian 介面 */
+/* ============= 設定字型 ================== */
+@font-face {
+	font-family: AndleyFont;
+	unicode-range: U+0370-03FF, U+1F00-1FFF; /* Greek UNICODE */
+	src: local("Gentium Book Plus");
+  }
+  @font-face {
+	font-family: AndleyFont;
+	unicode-range: U+0590-05FF, U+FB10-FB4F; /* Hebrew UNICODE */
+	src: local("Times New Roman");
+  }
+  @font-face {
+	font-family: AndleyFont;
+	unicode-range: U+00-024F; /* English UNICODE */
+	src: local("Times New Roman");
+  }
+  @font-face {
+	font-family: AndleyFont;
+	unicode-range: U+4E00-9FFF, U+3400-4DBF, U+20000-2A6DF, U+2A700–2B73F, U+2B740–2B81F, U+2B820–2CEAF, U+F900-FAFF, U+2F800-2FA1F; /* 中文 UNICODE */
+	src: local("Noto Sans CJK TC");
+  }
+  
+
+  /* Obsidian 介面 */
 .theme-dark {
   --text-tag: #4f8dc2;
+  --divider-color: #ff8a00;
   --text-muted: #E6E6E6;
   --text-faint: #ddff00;
   --icon-color: var(--text-faint);
@@ -12,7 +36,7 @@
   --color-strong: greenyellow;
   --color-em:gold;
   --text-accent:yellow;
-  --font-text: Times New Roman;
+  --font-text: AndleyFont;
   --control-character-color: white;
 }
 .theme-light {
@@ -30,11 +54,16 @@
   --link-external-color:rgb(128, 136, 240);
 }
 
+.nav-file-title, .nav-folder-title {
+  padding: 0 0 0 15px;
+  font-family: 'Noto Sans', 'Noto Sans TC';
+  }
+
+
 /* HTML tags in preview and editor */
 .cm-s-obsidian span.cm-tag {
   color: var(--text-tag);
   font-size: 13px;
-  font-family: "Arial Narrow";
 }
 
 /* 標題 */
@@ -81,42 +110,34 @@ table {
 
 /*   Ruby Interlinear  */
 ruby {
-  font-size:18px;
-  padding:2px;
-  line-height:5em;
+  font-size:19px;
+  line-height:4em;
 }
 
 rt {
-  font-size: 13px ; /* 10pt 字體大小*/
+  font-size: 13px ; 
+  text-align: center;
+  padding: 0 4px;
 }
-
-
 
 strong, .cm-strong {
     color: var(--color-strong);
     font-weight:bolder;
   }
+
 em, .cm-em {
     color: var(--color-em);
     font-weight:bold;
     font-style:italic;
   }
 
-.nav-file-title, .nav-folder-title {
-  display: flex;
-  border: 1px solid transparent;
-  border-radius: px;
-  cursor: pointer;
-  color: var(--text-faint);
-  font-size: 13px;
-  line-height: 13px;
-  padding: 2px 0 0 15px;
-  white-space: nowrap;
-}
-
 
 @media print {
   body {
-  --font-text:  InterlinearFont !important;
+    --font-text: AndleyFont !important;
+  }
+
+  @page {
+    margin: 1cm 0cm;
   }
 }
