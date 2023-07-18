@@ -23,5 +23,6 @@
   "spellcheckLanguages": [
     "en-US"
   ],
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "readableLineLength": false
 }

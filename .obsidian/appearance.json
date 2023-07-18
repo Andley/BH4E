@@ -10,5 +10,5 @@
   "theme": "obsidian",
   "cssTheme": "",
   "accentColor": "",
-  "showViewHeader": false
+  "showViewHeader": true
 }
