@@ -97,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 175.50000190734863
+    "width": 175.50000190734863,
+    "collapsed": true
   },
   "right": {
     "id": "1464b72f66019d33",
@@ -143,7 +144,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "75b75d906b38f1fb",
+  "active": "3b1d7a54d21e40b9",
   "lastOpenFiles": [
     "test.md",
     "qqq.md",

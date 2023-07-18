@@ -63,6 +63,7 @@
 /* HTML tags in preview and editor */
 .cm-s-obsidian span.cm-tag {
   color: var(--text-tag);
+  font-family: 'Arial Narrow';
   font-size: 13px;
 }
 
