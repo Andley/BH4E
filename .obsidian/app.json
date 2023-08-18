@@ -20,9 +20,7 @@
   "fileSortOrder": "alphabetical",
   "rightToLeft": false,
   "tabSize": 4,
-  "spellcheckLanguages": [
-    "en-US"
-  ],
+  "spellcheckLanguages": null,
   "showInlineTitle": false,
   "readableLineLength": false
 }
