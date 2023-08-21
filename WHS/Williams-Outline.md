@@ -1,7 +1,3 @@
----
-direction: ltr
----
-
 
 # Williams' Hebrew Syntax (3rd ed.)
  
@@ -239,9 +235,11 @@ direction: ltr
 
 ### Syntax of Verbs
 
-#### A  Stem (Theme) 
+#### A  Stem (字幹)
 
 ##### Qal 
+Qal 字幹又稱為 G 字幹，從德文 Grundstamm「基本字幹」而來，因此也有人稱之為 B (代表 Basic) 字幹。
+
 - 133 [Stative Qal](§133)
 - 134 [Fientive Qal](§134)
 

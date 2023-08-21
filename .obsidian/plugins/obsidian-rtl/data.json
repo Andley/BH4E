@@ -2,9 +2,9 @@
   "fileDirections": {
     "講道筆記.md": "ltr",
     "32-Jonah/hebrew.md": "rtl",
-    "Williams-Outline.md": "ltr",
     "test.md": "ltr",
-    "qqq.md": "ltr"
+    "qqq.md": "ltr",
+    "WHS/Williams-Outline.md": "ltr"
   },
   "defaultDirection": "ltr",
   "rememberPerFile": true,
