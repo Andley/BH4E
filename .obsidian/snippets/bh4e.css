@@ -117,7 +117,7 @@ ruby {
 
 rt {
   font-size: 13px ; 
-  text-align:inherit;
+  text-align:center;
   padding: 0 4px;
 }
 

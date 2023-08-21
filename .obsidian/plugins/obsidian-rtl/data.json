@@ -1,14 +1,10 @@
 {
   "fileDirections": {
-    "講道筆記.md": "ltr",
-    "32-Jonah/hebrew.md": "rtl",
-    "test.md": "ltr",
-    "qqq.md": "ltr",
-    "WHS/Williams-Outline.md": "ltr"
+    "WHS/§161.md": "ltr"
   },
   "defaultDirection": "ltr",
   "rememberPerFile": true,
-  "setNoteTitleDirection": false,
-  "setYamlDirection": true,
+  "setNoteTitleDirection": true,
+  "setYamlDirection": false,
   "statusBar": true
 }
