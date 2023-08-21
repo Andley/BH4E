@@ -4,26 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "35646054ccd79095",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3b1d7a54d21e40b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "qqq.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            },
-            "group": "376ac3b4ff70aab7"
-          }
-        ]
-      },
-      {
         "id": "054ae8caaf07d49e",
         "type": "tabs",
         "children": [
@@ -34,12 +14,30 @@
               "type": "markdown",
               "state": {
                 "file": "qqq.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "9cdf8692ea74a498",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b2d3a1b5b4a4b305",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "qqq.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
-            },
-            "group": "376ac3b4ff70aab7"
+            }
           }
         ]
       }
@@ -146,7 +144,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "3b1d7a54d21e40b9",
+  "active": "c197637b09bf8d94",
   "lastOpenFiles": [
     "test.md",
     "qqq.md",
