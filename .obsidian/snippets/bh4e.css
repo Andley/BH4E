@@ -104,13 +104,13 @@ table {
 
 /* ============= Ruby ================== */
 ruby {
-	font-size: 19px ;
-	line-height: 100px;
+	font-size: 22px ;
+	line-height: 6em;
   }
 
 rt {
   font-family: 'Arial Narrow';
-  font-size: 13px ; 
+  font-size: 16px ; 
   text-align: center;
   padding: 0 3px;
   }
