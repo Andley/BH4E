@@ -242,6 +242,9 @@ Qal 字幹又稱為 G 字幹，從德文 Grundstamm「基本字幹」而來，�
 
 - 133 [Stative Qal](§133)
 - 134 [Fientive Qal](§134)
+	- <div dir="rtl">1Sa 12:2  <RUBY><ruby><ruby>וַאֲנִי֙<rt>אֲנִי</rt></ruby><rt>and I</rt></ruby><rt>C+Pro-1cs</rt></RUBY> <RUBY><ruby><ruby>זָקַ֣נְתִּי<rt>זָקֵן</rt></ruby><rt>am old</rt></ruby><rt>V-Qal-qtl-1cs</rt></RUBY> <RUBY><ruby><ruby>וָשַׂ֔בְתִּי<rt>שִׂיב</rt></ruby><rt>and grayheaded;</rt></ruby><rt>C+V-Qal-wəqtl-1cs</rt></RUBY></div>
+	- וַאֲנִי֙ זָקַ֣נְתִּי וָשַׂ֔בְתִּי
+	- <p dir="rtl">1Ki 1:1 <RUBY><ruby><ruby>וְהַמֶּ֤לֶךְ<rt>מֶלֶךְ</rt></ruby><rt>and King</rt></ruby><rt>C,D+N-ms</rt></RUBY> <RUBY><ruby><ruby>דָּוִד֙<rt>דָּוִד</rt></ruby><rt>David</rt></ruby><rt>N-proper-ms</rt></RUBY> <RUBY><ruby><ruby>זָקֵ֔ן<rt>זָקֵן</rt></ruby><rt>was old</rt></ruby><rt>V-Qal-qtl-3ms</rt></RUBY> </p>
 
 ##### Niphal 
 - 135 [Reflexive Niphal](§135)
