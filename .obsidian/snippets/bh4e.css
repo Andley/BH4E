@@ -150,6 +150,8 @@ ruby {
   font-family: AndleyFont;
 	font-size: 24px ;
 	line-height: 4em;
+  ruby-align: space-between; /* Adjust the spacing between the base and ruby text */
+  ruby-position: over; /* Display the ruby text above the base text */
   }
 
 rt {
