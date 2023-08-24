@@ -32,9 +32,22 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "043af100a86e7108",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Jonah.md"
+                "file": "README.md"
               }
             }
           },
@@ -138,10 +151,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "1fb5b43bd94e5f34",
+  "active": "043af100a86e7108",
   "lastOpenFiles": [
-    "Jon.2.md",
     "Jonah.md",
+    "README.md",
+    "Jon.2.md",
     "Untitled",
     "WHS/Williams-Outline.md",
     "Data Source.md",
