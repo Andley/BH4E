@@ -22,5 +22,6 @@
   "tabSize": 4,
   "spellcheckLanguages": null,
   "showInlineTitle": false,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "showUnsupportedFiles": true
 }
