@@ -1,7 +1,8 @@
 {
   "fileDirections": {
     "WHS/§161.md": "ltr",
-    "qqq.md": "ltr"
+    "Jon.2.md": "rtl",
+    "Jonah.md": "rtl"
   },
   "defaultDirection": "ltr",
   "rememberPerFile": true,
