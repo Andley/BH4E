@@ -13,7 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Jon.2.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "a94dbf2250349678",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5870085c18230be1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jon.2.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -78,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5
+    "width": 287.5,
+    "collapsed": true
   },
   "right": {
     "id": "1464b72f66019d33",
@@ -94,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Jon.2.md"
               }
             }
           },
@@ -126,8 +146,10 @@
   },
   "active": "1fb5b43bd94e5f34",
   "lastOpenFiles": [
-    "WHS/Williams-Notes.md",
+    "Jonah.md",
+    "Jon.2.md",
     "README.md",
+    "WHS/Williams-Notes.md",
     "WHS/Williamss-Williamss.md",
     "WHS/§134.md",
     "WHS/§161.md",
@@ -135,8 +157,6 @@
     "§133.md",
     "张亚民.md",
     "潘隆正.md",
-    "Jonah.md",
-    "Jon.2.md",
     "Untitled",
     "Data Source.md",
     "aascac.md",
