@@ -148,8 +148,9 @@ table {
 /* ============= Ruby ================== */
 ruby {
   font-family: AndleyFont;
-	font-size: 24px ;
+	font-size: 2px ;
 	line-height: 5em;
+  ruby-align: start;
   }
 
 rt {
