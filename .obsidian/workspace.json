@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Eze.34.1-11.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -23,17 +23,17 @@
         ]
       },
       {
-        "id": "d413c2af2c7b07f9",
+        "id": "0d266b83da829a3b",
         "type": "tabs",
         "children": [
           {
-            "id": "99031850f0f3e41d",
+            "id": "f25bdb95fb0674f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Eze.34.1-11.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
