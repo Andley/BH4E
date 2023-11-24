@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1fb5b43bd94e5f34",
+            "id": "3c06efd4c00d6672",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jon.2.md",
-                "mode": "source",
+                "file": "Eze.34.1-11.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -23,17 +23,17 @@
         ]
       },
       {
-        "id": "a94dbf2250349678",
+        "id": "d413c2af2c7b07f9",
         "type": "tabs",
         "children": [
           {
-            "id": "5870085c18230be1",
+            "id": "99031850f0f3e41d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jon.2.md",
-                "mode": "preview",
+                "file": "Eze.34.1-11.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Jon.2.md"
+                "file": "Eze.34.1-11.md"
               }
             }
           },
@@ -144,10 +144,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "1fb5b43bd94e5f34",
+  "active": "3c06efd4c00d6672",
   "lastOpenFiles": [
-    "Jonah.md",
     "Jon.2.md",
+    "Eze.34.1-11.md",
+    "Jonah.md",
     "README.md",
     "WHS/Williams-Notes.md",
     "WHS/Williamss-Williamss.md",

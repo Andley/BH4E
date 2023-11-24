@@ -2,7 +2,8 @@
   "fileDirections": {
     "WHS/§161.md": "ltr",
     "Jon.2.md": "rtl",
-    "Jonah.md": "auto"
+    "Jonah.md": "auto",
+    "Eze.34.1-11.md": "auto"
   },
   "defaultDirection": "ltr",
   "rememberPerFile": true,
