@@ -199,3 +199,15 @@ em,  .cm-em {
       margin: 0.5cm 0.5cm;
     }
 }
+
+.base, .top {
+  font-size: 16px;
+  right:0;
+}
+
+.base {
+  z-index: 1;
+}
+.top {
+  color: red;
+}

@@ -3,7 +3,8 @@
     "WHS/§161.md": "ltr",
     "Jon.2.md": "rtl",
     "Jonah.md": "auto",
-    "Eze.34.1-11.md": "auto"
+    "Eze.34.1-11.md": "ltr",
+    "Color Vowel.md": "ltr"
   },
   "defaultDirection": "ltr",
   "rememberPerFile": true,
