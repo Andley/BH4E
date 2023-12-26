@@ -211,3 +211,26 @@ em,  .cm-em {
 .top {
   color: red;
 }
+
+.hebrew-layers {
+  font-family: "Times New Roamns";
+  font-size: 120px;
+}
+.hebrew-layers .hebrew-layers-vowels {
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #ff0000;
+}
+.hebrew-layers .hebrew-layers-accents {
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #00ff00;
+}
+.hebrew-layers .hebrew-layers-consonants {
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #000000;
+}

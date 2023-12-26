@@ -4,56 +4,63 @@
     "type": "split",
     "children": [
       {
-        "id": "054ae8caaf07d49e",
-        "type": "tabs",
+        "id": "642ee56f2c6ac55a",
+        "type": "split",
         "children": [
           {
-            "id": "3c06efd4c00d6672",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jonah.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
+            "id": "054ae8caaf07d49e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3c06efd4c00d6672",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Jonah.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": true
+                  }
+                }
+              },
+              {
+                "id": "b424d6249b1f7a6f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Color Vowel.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": true
+                  }
+                }
               }
-            }
+            ],
+            "currentTab": 1
           },
           {
-            "id": "b424d6249b1f7a6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Color Vowel.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
+            "id": "edb816dbc0051c58",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "7df9a3f13edc62c8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Color Vowel.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": true
+                  }
+                }
               }
-            }
+            ]
           }
         ],
-        "currentTab": 1
-      },
-      {
-        "id": "ac6a3718e484cb66",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4acdf9cf72b0ab19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Color Vowel.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          }
-        ]
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
