@@ -158,7 +158,12 @@ rt {
   font-size: 13px ; /* 10pt 字體大小*/
   font-family: "Arial Narrow";
   JUSTIFY-CONTENT: center;
-  padding: 5px;
+  padding: px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
 }
 
 .tip span:before {
