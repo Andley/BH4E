@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Jonah.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5,
-    "collapsed": true
+    "width": 287.5
   },
   "right": {
     "id": "1464b72f66019d33",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Jonah.md"
               }
             }
           },
@@ -127,9 +126,9 @@
   },
   "active": "7f9e2714d4f4064c",
   "lastOpenFiles": [
+    "Untitled.md",
     "Jonah.md",
     "Jon.2.md",
-    "Untitled.md",
     "Color Vowel.md",
     "Eze.34.1-11.md",
     "test.md",

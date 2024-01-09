@@ -147,18 +147,15 @@ table {
 
 /* ============= Ruby ================== */
 ruby {
-  display: inline-flex;
-  flex-direction: column-reverse ;
-  align-items: center;
+
   font-size: 16px ; /* 12pt 字體大小*/
-  line-height: 16px ;
-  padding-bottom: 1px ;
-  font-family: "Ezra SIL Color";
+  font-family:"SBL Hebrew";
+  line-height:5em;
 }
 rt {
-  font-size: 13px ; /* 10pt 字體大小*/
-  line-height: 16px ;
-  font-family: "Ezra SIL Color";
+  font-size: 16px ; /* 10pt 字體大小*/
+  font-family: "SBL Hebrew";
+  padding: 5px;
 }
 
 
