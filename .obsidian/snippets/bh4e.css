@@ -151,10 +151,16 @@ ruby {
   font-size: 16px ; /* 12pt 字體大小*/
   font-family:"SBL Hebrew";
   line-height:5em;
+ 
+}
+
+.esm-rtl {
+align: center;
 }
 rt {
-  font-size: 16px ; /* 10pt 字體大小*/
+  font-size: 13px ; /* 10pt 字體大小*/
   font-family: "SBL Hebrew";
+  JUSTIFY-CONTENT: center;
   padding: 5px;
 }
 
