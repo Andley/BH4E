@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test-3-lines.md",
-                "mode": "source",
+                "file": "README.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -97,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5,
-    "collapsed": true
+    "width": 287.5
   },
   "right": {
     "id": "1464b72f66019d33",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test-3-lines.md"
+                "file": "README.md"
               }
             }
           },
@@ -146,8 +145,8 @@
   },
   "active": "91677db3d9309e01",
   "lastOpenFiles": [
-    "README.md",
     "test-3-lines.md",
+    "README.md",
     "Jonah.md",
     "Untitled.md",
     "Jon.2.md",
