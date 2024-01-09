@@ -148,23 +148,22 @@ table {
 /* ============= Ruby ================== */
 ruby {
 
-  font-size: 16px ; /* 12pt 字體大小*/
-  font-family:"SBL Hebrew";
+  font-size: 19px ; /* 12pt 字體大小*/
+  font-family: "SBL Hebrew";
   line-height:5em;
  
 }
 
-.esm-rtl {
-align: center;
-}
 rt {
   font-size: 13px ; /* 10pt 字體大小*/
-  font-family: "SBL Hebrew";
+  font-family: "Arial Narrow";
   JUSTIFY-CONTENT: center;
   padding: 5px;
 }
 
-
+.tip span:before {
+  content: attr(data-tooltip);
+}
 
 strong,  .cm-strong {
     color: var(--color-strong);

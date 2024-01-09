@@ -14,6 +14,39 @@
               "type": "markdown",
               "state": {
                 "file": "Jonah.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "71ea390e74c5534b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 1.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "09599f3b54a5bd42",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91677db3d9309e01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 1.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -95,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Jonah.md"
+                "file": "Untitled 1.md"
               }
             }
           },
@@ -125,10 +158,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "7f9e2714d4f4064c",
+  "active": "71ea390e74c5534b",
   "lastOpenFiles": [
-    "Untitled.md",
     "Jonah.md",
+    "Untitled 1.md",
+    "Untitled.md",
     "Jon.2.md",
     "Color Vowel.md",
     "Eze.34.1-11.md",
@@ -147,7 +181,6 @@
     "aascac.md",
     "WHS",
     "0-1.md",
-    "Untitled 1.md",
     "ts.md"
   ]
 }
