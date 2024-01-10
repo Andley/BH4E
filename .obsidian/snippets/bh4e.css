@@ -147,8 +147,7 @@ table {
 
 /* ============= Ruby ================== */
 ruby {
-
-  font-size: 19px ; /* 12pt 字體大小*/
+  font-size: 16px ; /* 12pt 字體大小*/
   font-family: "SBL Hebrew";
   line-height:5em;
  
@@ -158,16 +157,7 @@ rt {
   font-size: 13px ; /* 10pt 字體大小*/
   font-family: "Arial Narrow";
   JUSTIFY-CONTENT: center;
-  padding: px;
-}
-
-a:link {
-  text-decoration: none;
-  color: black;
-}
-
-.tip span:before {
-  content: attr(data-tooltip);
+  padding: 5px;
 }
 
 strong,  .cm-strong {
