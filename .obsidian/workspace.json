@@ -23,11 +23,11 @@
         ]
       },
       {
-        "id": "a81d678a92c02c87",
+        "id": "b0e61243df433335",
         "type": "tabs",
         "children": [
           {
-            "id": "79159d0571d7a629",
+            "id": "cd313ae1ea4e7960",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -97,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5,
-    "collapsed": true
+    "width": 287.5
   },
   "right": {
     "id": "1464b72f66019d33",
@@ -144,27 +143,27 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "79159d0571d7a629",
+  "active": "cd313ae1ea4e7960",
   "lastOpenFiles": [
     "Jon.2.md",
+    "Jonah.md",
+    "Eze.34.1-11.md",
+    "Data Source.md",
+    "Color Vowel.md",
+    "aascac.md",
+    "张亚民.md",
+    "§72.md",
     "README.md",
     "test-3-lines.md",
-    "Jonah.md",
     "Untitled.md",
-    "Color Vowel.md",
-    "Eze.34.1-11.md",
     "test.md",
-    "Data Source.md",
     "WHS/Williams-Notes.md",
     "WHS/Williamss-Williamss.md",
     "WHS/§134.md",
     "WHS/§161.md",
-    "§72.md",
     "§133.md",
-    "张亚民.md",
     "潘隆正.md",
     "Untitled",
-    "aascac.md",
     "WHS",
     "0-1.md",
     "ts.md"
