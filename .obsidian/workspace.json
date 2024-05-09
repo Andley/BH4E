@@ -13,7 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jon.2.md",
+                "file": "aascac.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "f3fb849ec631136b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ab10af24ad9ba74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "aascac.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -78,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5
+    "width": 287.5,
+    "collapsed": true
   },
   "right": {
     "id": "1464b72f66019d33",
@@ -94,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Jon.2.md"
+                "file": "aascac.md"
               }
             }
           },
@@ -124,7 +144,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "91677db3d9309e01",
+  "active": "2ab10af24ad9ba74",
   "lastOpenFiles": [
     "Jonah.md",
     "Jon.2.md",
