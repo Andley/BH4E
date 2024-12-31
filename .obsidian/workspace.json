@@ -17,7 +17,9 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "aascac"
             }
           }
         ]
@@ -36,7 +38,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "aascac"
             }
           }
         ]
@@ -59,7 +63,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -74,7 +80,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -82,7 +90,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -90,7 +100,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -114,7 +126,9 @@
               "type": "outline",
               "state": {
                 "file": "aascac.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "Outline of aascac"
             }
           },
           {
@@ -125,7 +139,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           }
         ]
