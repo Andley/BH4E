@@ -105,22 +105,19 @@ table {
 
 /* ============= Ruby ================== */
 ruby {
-  font-size: 22px ; /* 12pt 字體大小*/
+  font-size: 1em ; /* 12pt 字體大小*/
   font-family: "SBL Hebrew";
-  line-height:5em;
+  line-height:4.5em;
+  ruby-align:center;
+  padding: 0 0.1em 0 0.1em;
 }
-
-li ruby {
-  line-height:2em;
-}
-
 
 rt {
-  font-size: 13px ; /* 10pt 字體大小*/
+  font-size: 0.8em ; 
+  padding: 0 0.1em 0 0.1em;
   font-family: "Arial Narrow";
-  JUSTIFY-CONTENT: center;
-  padding: 5px;
 }
+
 
 strong,  .cm-strong {
     color: var(--color-strong);
