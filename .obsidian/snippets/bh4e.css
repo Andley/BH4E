@@ -104,30 +104,33 @@ table {
 
 
 /* ============= Ruby ================== */
-ruby {
-  font-size: 1em ; /* 12pt 字體大小*/
+/*ruby {
+  font-size: 1em ; 
   font-family: "SBL Hebrew";
   line-height:4.5em;
-  ruby-align:center;
   padding: 0 0.1em 0 0.1em;
+  ruby-align:;
 }
 
 rt {
-  font-size: 0.8em ; 
+  font-size: 1em ; 
   padding: 0 0.1em 0 0.1em;
   font-family: "Arial Narrow";
-}
+}*/
 
-
-strong,  .cm-strong {
-    color: var(--color-strong);
-    font-weight:bolder;
+ruby {
+	display: inline-flex;
+	flex-direction: column ;
+	font-size: 1em ; /* 12pt 字體大小*/
+	line-height: 1.2em ;
+	font-family: "Noto Serif Hebrew";
+  padding-top: 1em;
   }
 
-em,  .cm-em {
-    color: var(--color-em);
-    font-weight:bold;
-    font-style:italic;
+  rt {
+	  font-size: 0.8em;
+	  line-height: 1em;
+	  font-family: "Arial Narrow", "Noto Serif Hebrew";
   }
 
   /* text decoration for marking syntax functions */
