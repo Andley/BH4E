@@ -10,5 +10,6 @@
   "theme": "obsidian",
   "cssTheme": "",
   "accentColor": "",
-  "showViewHeader": true
+  "showViewHeader": true,
+  "showRibbon": false
 }

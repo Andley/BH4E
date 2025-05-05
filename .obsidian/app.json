@@ -23,6 +23,5 @@
   "spellcheckLanguages": null,
   "showInlineTitle": false,
   "readableLineLength": false,
-  "showUnsupportedFiles": true,
-  "showRibbon": false
+  "showUnsupportedFiles": true
 }
