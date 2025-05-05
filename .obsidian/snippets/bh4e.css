@@ -1,4 +1,53 @@
-/* ============= Obsidian 介面 ================== */
+@font-face {
+  font-family: AndleyFont;
+  unicode-range: U+0370-03FF, U+1F00-1FFF; /* Greek UNICODE */
+  src: local("Gentium Book Plus");
+  }
+@font-face {
+	font-family: AndleyFont;
+	unicode-range: U+4E00-9FFF; /* 中文 UNICODE */
+	src: local("Noto Sans TC");
+  }
+@font-face {
+  font-family: AndleyFont;
+  unicode-range: U+0590-05FF, U+FB10-FB4F; /* Hebrew UNICODE */
+  src: local("Ezra SIL");
+  }
+
+/* 標題 */
+h1, h3, h5 {
+  text-align: center;
+}
+
+h2, h4, h6 {
+}
+
+html, body, p, li {
+  font-family: AndleyFont, "Noto Sans";
+}
+
+
+/*   Ruby Interlinear */
+ruby {
+  font-size: 1em ; 
+  ruby-align:start;
+  padding: 0 0.1em 0 0;
+  font-family:  AndleyFont;
+  line-height:5em;
+}
+
+rt {
+  font-size: 0.8em ; 
+  font-family: AndleyFont, "Noto Sans ExtraCondensed";
+} 
+
+li ruby {
+  line-height:4em;
+} 
+
+
+  
+  /* ============= Obsidian 介面 ================== */
 .theme-dark {
   --text-tag: #4f8dc2;
   --divider-color: #E6E6E6;
@@ -102,36 +151,6 @@ table {
   border: 1px solid;
 }
 
-
-/* ============= Ruby ================== */
-/*ruby {
-  font-size: 1em ; 
-  font-family: "SBL Hebrew";
-  line-height:4.5em;
-  padding: 0 0.1em 0 0.1em;
-  ruby-align:;
-}
-
-rt {
-  font-size: 1em ; 
-  padding: 0 0.1em 0 0.1em;
-  font-family: "Arial Narrow";
-}*/
-
-ruby {
-	display: inline-flex;
-	flex-direction: column ;
-	font-size: 1em ; /* 12pt 字體大小*/
-	line-height: 1.2em ;
-	font-family: "Noto Serif Hebrew";
-  padding-top: 1em;
-  }
-
-  rt {
-	  font-size: 0.8em;
-	  line-height: 1em;
-	  font-family: "Arial Narrow", "Noto Serif Hebrew";
-  }
 
   /* text decoration for marking syntax functions */
   mark {

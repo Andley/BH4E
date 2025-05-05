@@ -1,17 +1,19 @@
 {
   "fileDirections": {
     "WHS/§161.md": "ltr",
-    "Jon.2.md": "rtl",
+    "Jon.2.md": "auto",
     "Jonah.md": "rtl",
-    "Eze.34.1-11.md": "ltr",
+    "Eze.34.1-11.md": "auto",
     "Color Vowel.md": "ltr",
     "Untitled.md": "rtl",
-    "test-3-lines.md": "rtl",
-    "aascac.md": "rtl"
+    "test-3-lines.md": "auto",
+    "aascac.md": "rtl",
+    "Untitled 1.md": "auto"
   },
   "defaultDirection": "ltr",
   "rememberPerFile": true,
   "setNoteTitleDirection": true,
   "setYamlDirection": false,
+  "preventRTLFrontmatter": false,
   "statusBar": true
 }
