@@ -11,7 +11,7 @@
 @font-face {
   font-family: AndleyFont;
   unicode-range: U+0590-05FF, U+FB10-FB4F; /* Hebrew UNICODE */
-  src: local("Ezra SIL");
+  src: local("SBL Hebrew");
   }
 
 /* 標題 */
@@ -27,25 +27,41 @@ html, body, p, li {
 }
 
 
-/*   Ruby Interlinear */
+/*   Ruby Interlinear 
 ruby {
-  font-size: 1em ; 
+  font-size: 1.1em ; 
   ruby-align:start;
-  padding: 0 0.1em 0 0;
+  padding: 0 0 0 0.2em;
   font-family:  AndleyFont;
-  line-height:5em;
+  line-height:6em;
 }
 
 rt {
   font-size: 0.8em ; 
+  padding: 0 0 0 0.2em;
   font-family: AndleyFont, "Noto Sans ExtraCondensed";
 } 
 
 li ruby {
   line-height:4em;
 } 
+*/
+ruby {
+	display: inline-flex;
+	flex-direction: column-reverse ;
+	align-items: center;
+	font-size: 1.1em ; 
+  line-height:1.1em;
+	font-family: AndleyFont;
+  padding: 0 0.1em 0.2em 0;
+  }
 
-
+  rt {
+	  font-size: 0.8em;
+	  line-height: 1.1em;
+	  font-family: AndleyFont, "Noto Sans ExtraCondensed";
+    padding:0 0.1em 0 0.1em;
+  }
   
   /* ============= Obsidian 介面 ================== */
 .theme-dark {
