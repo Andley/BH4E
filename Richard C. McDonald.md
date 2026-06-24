@@ -1,3 +1,59 @@
+Richard C. McDonald 博士與現代多數希伯來語學者的最大差異，在於方法論的「復古」與「現代」之爭。當代主流學者傾向引入現代語言學，而 McDonald 則堅持必須回到與希伯來語同源的古代閃族語系（如同屬閃語的阿拉伯語及亞拉姆語）中尋找答案。 [1, 2, 3]
+
+兩者在希伯來動詞的研究與解讀上，存在以下四個核心差異：
+
+## 1. 理論基礎的差異：現代語言學 vs. 傳統閃族文法
+
+- 主流現代學者：如 John A. Cook、Van der Merwe 等學者，強烈主張使用現代語言學（如「話語分析」Discourse Analysis、「語法化理論」Grammaticalization 或現代時態/體貌理論 Aspect/Tense）來重新架構聖經希伯來語。 [3, 4]
+- McDonald：對現代語言學的介入感到不滿。他認為傳統閃族文法（以古代阿拉伯語文法為核心）已經提供了最簡單、清晰且精確的動詞描述，盲目套用西方現代語言學反而會抹煞希伯來語作為閃族語的獨特性。 [2, 3]
+
+## 2. 動詞「時態/體貌」爭論點的差異
+
+- 主流現代學者：長年爭論希伯來動詞究竟是代表「時間」（過去/現在/未來），還是代表「體貌」（動作已完成 Perfective / 動作未完成 Imperfective）。現代學者常試圖建立複雜的語言學模型來解釋文本中看似混亂的動詞轉換（例如 Vav-consecutive 結構）。
+- McDonald：回歸古典文法學家（如 Gesenius）的傳統，主張從基礎的字根構造和構詞（Stems）出發。他認為許多動詞的異常現象不需要靠複雜的現代語言學理論硬解，透過傳統閃族語法的句法邏輯就能迎刃而解。 [2, 5, 6, 7]
+
+## 3. 對照語言的選擇：印歐語系思維 vs. 姐妹閃族語
+
+- 主流現代學者：在分析文法時，容易受到印歐語系（如英文、德文）的語義與語法邏輯影響，試圖在希伯來動詞中尋找符合現代西方語言學分類的定義。
+- McDonald：強烈主張「親緣語言對照法」。他認為希伯來語的希伯來動詞最適合與其姐妹語言——阿拉伯語（Arabic）做對比，因為兩者在動詞系統的演變上有極高的同源性。 [2, 3]
+
+## 4. 解決動詞翻譯難題的工具：語境推論 vs. 亞拉姆語譯本
+
+- 主流現代學者：當遇到敘事文中難以辨別的動詞功能（如過去未完成式動詞究竟是「重複發生 Frequentative」還是「單次過去 Preterite」）時，多數學者傾向依賴當前經文的上下文語境（Context）或敘事結構進行神學推論。 [1]
+- McDonald：提出極具特色的實務工具，主張藉由《塔古姆奧克洛斯》（Targum Onqelos，古代亞拉姆語摩西五經譯本）來進行分辨。他透過研究發現，古代亞拉姆語譯者在翻譯這些希伯來動詞時有其固定的動詞對應規律，這比現代學者的主觀猜測更具歷史客觀性。 [1, 8]
+
+---
+
+## 差異總覽表
+
+|比較維度 [1, 2, 3, 4, 7]|主流現代希伯來語學者|Richard C. McDonald|
+|---|---|---|
+|核心核心方法論|現代語言學、話語分析、語法化理論|傳統閃族語法（基於阿拉伯語文法）|
+|動詞分析框架|西方現代語言學的時態/體貌模型|古典構詞分析、傳統字根與詞幹功能|
+|主要對照參照|印歐語系語法概念、跨語言通用模型|古典阿拉伯語、亞拉姆語等閃族姐妹語言|
+|難解動詞突破點|依賴經文上下文脈絡與敘事神學推論|參考古代《塔古姆亞拉姆語譯本》的翻譯規律|
+
+如果您想深入了解，我們可以探討 McDonald 博士如何利用阿拉伯文法來解釋希伯來語的名詞句或動詞句，或者進一步剖析他和現代學者在 Vav-consecutive（連續的 Vav） 上的觀點衝突。您希望從哪一個部分開始？
+
+  
+
+[1] [https://sbts.academia.edu](https://sbts.academia.edu/RMcDonald)
+
+[2] [https://www.semanticscholar.org](https://www.semanticscholar.org/paper/Grammatical-Analysis-of-Various-Biblical-Hebrew-to-Mcdonald/f16237332781e13871d7abf89049561d12f0d582)
+
+[3] [https://yourhebrewtutor.com](https://yourhebrewtutor.com/2016/01/23/grammar-review-van-der-merwe-naude-kroeze/)
+
+[4] [https://jbtsonline.org](https://jbtsonline.org/files/2024/05/JBTS-7.1-Article-4-fcbc9508603af78a.pdf)
+
+[5] [https://yourhebrewtutor.com](https://yourhebrewtutor.com/2019/10/01/the-verb-%D7%A2%D7%92%D7%9F-in-ruth-113b/)
+
+[6] [https://yourhebrewtutor.com](https://yourhebrewtutor.com/2015/11/07/gesenius-kautzsch-verbal-and-nominal-clauses/)
+
+[7] [https://yourhebrewtutor.com](https://yourhebrewtutor.com/2016/01/05/a-friendly-reminder-the-derived-stems/)
+
+[8] [https://bpb-us-e2.wpmucdn.com](https://bpb-us-e2.wpmucdn.com/sites.gcu.edu/dist/2/88/files/2024/05/JBTS-7.1-Article-4-fcbc9508603af78a.pdf)
+
+---
 在聖經希伯來語中，Vav-consecutive（連續的 Vav，或稱反轉性 Vav） 是一個極為獨特的語法現象：當連接詞 Vav（וְ，相當於 And）接在動詞前面時，它看似會「反轉」動詞的時態。例如，它能讓「未完成式動詞」轉而表達「過去的連續動作」，或讓「完成式動詞」表達「未來的動作」。 [1, 2, 3]
 
 在這個議題上，Richard C. McDonald 博士與現代主流語言學派（如 John A. Cook） 產生了根本性的觀點衝突。這場衝突的核心並非爭論字面如何翻譯，而是如何從理論底層去解釋「這個 Vav 到底對動詞做了什麼？」 [4, 5]
