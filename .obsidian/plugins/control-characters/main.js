@@ -60,36 +60,55 @@ var import_obsidian = __toModule(require("obsidian"));
 var ControlCharactersSettingsTab = class extends import_obsidian.PluginSettingTab {
   constructor(plugin) {
     super(plugin.app, plugin);
+    this.icon = "pilcrow";
     this.plugin = plugin;
   }
   display() {
     const { containerEl } = this;
     containerEl.empty();
-    containerEl.createEl("h2", { text: "Control Characters" });
-    new import_obsidian.Setting(containerEl).setName("Only show control characters in selection").addToggle((toggle) => {
-      toggle.setValue(this.plugin.settings.selection).onChange((value) => __async(this, null, function* () {
-        this.plugin.settings.selection = value;
-        yield this.plugin.saveSettings();
-      }));
+    new import_obsidian.SettingGroup(containerEl).addSetting((setting) => {
+      setting.setName("Only show control characters in selection").addToggle((toggle) => {
+        toggle.setValue(this.plugin.settings.selection).onChange((value) => __async(this, null, function* () {
+          this.plugin.settings.selection = value;
+          yield this.plugin.saveSettings();
+        }));
+      });
+    }).addSetting((setting) => {
+      setting.setName("Show in Source mode").addToggle((toggle) => {
+        toggle.setValue(this.plugin.settings.sourceMode).onChange((value) => __async(this, null, function* () {
+          this.plugin.settings.sourceMode = value;
+          yield this.plugin.saveSettings();
+        }));
+      });
+    }).addSetting((setting) => {
+      setting.setName("Show in Live preview mode").addToggle((toggle) => {
+        toggle.setValue(this.plugin.settings.livePreviewMode).onChange((value) => __async(this, null, function* () {
+          this.plugin.settings.livePreviewMode = value;
+          yield this.plugin.saveSettings();
+        }));
+      });
     });
-    containerEl.createEl("h3", { text: "Show" });
-    new import_obsidian.Setting(containerEl).setName("Space").addToggle((toggle) => {
-      toggle.setValue(this.plugin.settings.space).onChange((value) => __async(this, null, function* () {
-        this.plugin.settings.space = value;
-        yield this.plugin.saveSettings();
-      }));
-    });
-    new import_obsidian.Setting(containerEl).setName("Tab").addToggle((toggle) => {
-      toggle.setValue(this.plugin.settings.tab).onChange((value) => __async(this, null, function* () {
-        this.plugin.settings.tab = value;
-        yield this.plugin.saveSettings();
-      }));
-    });
-    new import_obsidian.Setting(containerEl).setName("New line").addToggle((toggle) => {
-      toggle.setValue(this.plugin.settings.newLine).onChange((value) => __async(this, null, function* () {
-        this.plugin.settings.newLine = value;
-        yield this.plugin.saveSettings();
-      }));
+    new import_obsidian.SettingGroup(containerEl).setHeading("Characters").addSetting((setting) => {
+      setting.setName("Space").addToggle((toggle) => {
+        toggle.setValue(this.plugin.settings.space).onChange((value) => __async(this, null, function* () {
+          this.plugin.settings.space = value;
+          yield this.plugin.saveSettings();
+        }));
+      });
+    }).addSetting((setting) => {
+      setting.setName("Tab").addToggle((toggle) => {
+        toggle.setValue(this.plugin.settings.tab).onChange((value) => __async(this, null, function* () {
+          this.plugin.settings.tab = value;
+          yield this.plugin.saveSettings();
+        }));
+      });
+    }).addSetting((setting) => {
+      setting.setName("New line").addToggle((toggle) => {
+        toggle.setValue(this.plugin.settings.newLine).onChange((value) => __async(this, null, function* () {
+          this.plugin.settings.newLine = value;
+          yield this.plugin.saveSettings();
+        }));
+      });
     });
   }
 };
@@ -158,7 +177,9 @@ function parseFrontmatter(view, settings) {
     newLine: settings.newLine,
     selection: settings.selection,
     space: settings.space,
-    tab: settings.tab
+    tab: settings.tab,
+    sourceMode: settings.sourceMode,
+    livePreviewMode: settings.livePreviewMode
   };
   const matches = view.state.sliceDoc().match(/---([\s\S]*?)---/);
   if (matches && matches.length !== 0) {
@@ -224,7 +245,9 @@ var DEFAULT_SETTINGS = {
   tab: true,
   space: true,
   enabled: true,
-  selection: false
+  selection: false,
+  sourceMode: true,
+  livePreviewMode: true
 };
 
 // src/SelectionHighlight.ts
@@ -272,30 +295,53 @@ var ControlCharacter;
 
 // src/main.ts
 var ControlCharacterPlugin = class extends import_obsidian4.Plugin {
+  constructor() {
+    super(...arguments);
+    this.enabledExtensions = [];
+    this.normalDecoration = import_state2.Prec.lowest(normalDecoration(this));
+    this.selectionDecoration = import_state2.Prec.lowest(selectionDecorations(this));
+  }
   onload() {
     return __async(this, null, function* () {
-      if (!this.app.vault.getConfig("legacyEditor")) {
-        yield this.loadSettings();
-        this.registerEditorExtension(import_state2.Prec.lowest(normalDecoration(this)));
-        this.registerEditorExtension(import_state2.Prec.lowest(selectionDecorations(this)));
-        this.addSettingTab(new ControlCharactersSettingsTab(this));
-        this.addCommand({
-          id: "toggle",
-          name: "Show/hide control characters",
-          callback: () => __async(this, null, function* () {
-            this.settings.enabled = !this.settings.enabled;
-            console.log(this.settings.enabled);
-            yield this.saveSettings();
-            this.app.workspace.updateOptions();
-          })
-        });
-        this.app.workspace.trigger("parse-style-settings");
-      } else {
-        new import_obsidian4.Notice("Control Characters: You are using the legacy editor, this plugin is not supported there");
+      yield this.loadSettings();
+      if (this.settings.enabled && !this.settings.selection) {
+        this.enabledExtensions.push(this.normalDecoration);
       }
+      if (this.settings.enabled && this.settings.selection) {
+        this.enabledExtensions.push(this.selectionDecoration);
+      }
+      this.registerEditorExtension(this.enabledExtensions);
+      this.addSettingTab(new ControlCharactersSettingsTab(this));
+      this.addCommand({
+        id: "toggle",
+        name: "Show/hide control characters",
+        callback: () => __async(this, null, function* () {
+          this.settings.enabled = !this.settings.enabled;
+          yield this.saveSettings();
+        })
+      });
+      this.app.workspace.trigger("parse-style-settings");
     });
   }
   onunload() {
+  }
+  updateDecorations() {
+    while (this.enabledExtensions.length > 0) {
+      this.enabledExtensions.pop();
+    }
+    if (this.settings.enabled && !this.settings.selection) {
+      this.enabledExtensions.push(this.normalDecoration);
+    }
+    if (this.settings.enabled && this.settings.selection) {
+      this.enabledExtensions.push(this.selectionDecoration);
+    }
+    this.app.workspace.updateOptions();
+  }
+  onExternalSettingsChange() {
+    return __async(this, null, function* () {
+      yield this.loadSettings();
+      this.updateDecorations();
+    });
   }
   loadSettings() {
     return __async(this, null, function* () {
@@ -305,22 +351,33 @@ var ControlCharacterPlugin = class extends import_obsidian4.Plugin {
   saveSettings() {
     return __async(this, null, function* () {
       yield this.saveData(this.settings);
+      this.updateDecorations();
     });
   }
   getTokens(view, from, to, settings) {
     const targetElements = [];
+    if (view.state.field(import_obsidian4.editorLivePreviewField) && !settings.livePreviewMode) {
+      return targetElements;
+    }
+    if (!view.state.field(import_obsidian4.editorLivePreviewField) && !settings.sourceMode) {
+      return targetElements;
+    }
     const text = view.state.sliceDoc(from, to);
     for (const match of text.matchAll(/[\u00A0\u202F\u2007\u2060\s]/gu)) {
       const index = from + match.index;
-      if (match.toString() === "\n" && settings.newLine) {
-        targetElements.push({ from: index - 1, to: index, value: ControlCharacter.NEWLINE });
-        continue;
+      if (match.toString() === "\n") {
+        if (settings.newLine) {
+          targetElements.push({ from: index - 1, to: index, value: ControlCharacter.NEWLINE });
+          continue;
+        }
       }
       let value;
-      if (match.toString() === "	" && settings.tab) {
-        value = ControlCharacter.TAB;
-      } else if (match.toString() === " " && settings.space) {
-        value = ControlCharacter.SPACE;
+      if (match.toString() === "	") {
+        if (settings.tab)
+          value = ControlCharacter.TAB;
+      } else if (match.toString() === " ") {
+        if (settings.space)
+          value = ControlCharacter.SPACE;
       } else {
         value = ControlCharacter.OTHER;
       }
@@ -329,3 +386,5 @@ var ControlCharacterPlugin = class extends import_obsidian4.Plugin {
     return targetElements;
   }
 };
+
+/* nosourcemap */
